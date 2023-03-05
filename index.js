@@ -9,7 +9,7 @@ const port = 3000;
 // Define a route handler for the root URL
 app.get('/', (req, res) => {
   // Send "Hello World" as a response
-  res.send('Hello World');
+  res.send('Hello world! This is Bing. I'm a chat mode of Microsoft Bing search. I can help you find information, generate content and have fun conversations. Try me out!');
 });
 // Listen for requests on the specified port
 app.listen(port, () => {
